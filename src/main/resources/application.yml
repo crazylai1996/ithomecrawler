@@ -1,0 +1,45 @@
+#端口号
+server:
+  port: 8081
+
+spring:
+  data:
+  ##elasticsearch配置
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: localhost:9300
+  ##redis配置
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    password: redis
+    pool:
+      max-active: 15
+      max-wait: 1
+      max-idle: 0
+    timeout: 0
+  ##freemarker配置
+  freemarker:
+  ##是否允许属性覆盖
+    allow-request-override: false
+    allow-session-override: false
+    cache: true
+    check-template-location: true
+    content-type: text/html
+  ##暴露request属性
+    expose-request-attributes: false
+    expose-session-attributes: false
+    expose-spring-macro-helpers: false
+    suffix: .ftl
+    template-loader-path: classpath:/templates/
+    request-context-attribute: request
+    settings:
+      classic_compatible: true
+      locale: zh_CN
+      date_format: yyyy-MM-dd
+      time_format: HH:mm:ss
+      datetime_format: yyyy-MM-dd HH:mm:ss
+
+
+

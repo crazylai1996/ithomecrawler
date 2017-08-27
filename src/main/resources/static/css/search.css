@@ -1,0 +1,119 @@
+/* CSS Document */
+body{
+	background: url(../img/saber.png) no-repeat fixed bottom center;
+	background-size:cover;
+}
+.center-wrapper{
+	width:1000px;
+	min-height:293px;
+	margin:0 auto;
+	position:relative;
+}
+.center-block{
+	width:580px;
+	height:200px;
+	margin:auto;
+	position:absolute;
+	top:0;left:0;bottom:0;right:0;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+}
+.center-up{
+	display:inline-block;
+	width:350px;
+	height:120px;
+	position:relative;
+}
+.logo-div{float:left;}
+.app-desc{
+	position:absolute;
+	bottom:0;
+	left:250px;
+	color:#FF0000;
+	font-size:16px;
+	font-weight:bolder;
+}
+.keyword-input{
+	width:480px;
+	height:20px;
+	padding:9px 7px;
+	border-top:solid 1px #D3D3D3;
+	border-left:solid 1px #D3D3D3;
+	border-bottom:solid 1px #D3D3D3;
+}
+.keyword-input:focus{
+	outline:none;
+	border:solid 1px #0AC516;
+}
+.search-btn{
+	display:inline-block;
+	line-height:38px;
+	width:70px;
+	color:#FFF;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+	text-align:center;
+	vertical-align:bottom;
+	border:1px solid #0AAA16;
+	background-color:#0AC516;
+}
+.search-btn:hover{background-color:#0AAA16;}
+.rank-list{
+	display:inline-block;
+	width:567px;
+	list-style:none;
+	padding:0;
+	margin:0;
+	margin-top:10px;
+	border-radius:5px;
+	text-align:left;
+	background-color:#F5F5F5;
+	opacity:0.75;
+}
+.rank-list li{
+	padding: 2px 2px;
+	border-bottom:1px solid #0AC516;
+}
+.rank-list span{
+	padding-right:2px;
+}
+.comment-top{
+	font-size:14px;
+}
+.name{
+	color:#333333;
+}
+.mobile{
+	color:#0AC516;
+}
+.posandtime{
+	color:#696969;
+}
+.article-url{
+	float:right;
+	color:#C0C0C0;
+	text-decoration:none;
+}
+.article-url:hover{ 
+	color:#0AAA16;
+	text-decoration:underline;
+}
+.rank-list p{
+	font-size:16px;
+	color:#333333;
+}
+.comment-bottom{
+	height:20px;
+}
+.comment-bottom span{
+	float:right;
+	font-size:14px;
+}
+.comment-bottom .down{
+	color:#FF0000;
+}
+.comment-bottom .up{
+	color:#0AAA16;
+}
